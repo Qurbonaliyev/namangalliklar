@@ -212,9 +212,7 @@ body{
     padding-top: 50px;
 }
 
-.card_container{
 
-}
 
 .cards_list{
     list-style-type: none;
@@ -280,4 +278,32 @@ body{
     background-position: center;
     color: transparent;
     content: "aa";
+}
+.notfication_cta {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px 70px 25px 25px;
+margin: 60px 70px;
+border-radius: 10px;
+background-color: #ffd7ba;
+}
+.notfication_cta_text {
+font-size: 20px;
+font-weight: 500px;
+line-height: 26px;
+color: #000;
+}
+.button {
+
+}
+.button_orange {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 30px;
+    border-radius: 10px;
+    background-color: #F78B3B;
+    color: white;
+    border-style: none;
 }
